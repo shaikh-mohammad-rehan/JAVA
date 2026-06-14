@@ -1,0 +1,8 @@
+#Naming Conventions
+-->For "classes" we use PascalConvention
+AddTwoNumbers
+
+-->For "functions" we use camelCaseConvention
+addTwoNumbers
+
+
