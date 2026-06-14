@@ -1,0 +1,64 @@
+#For Hello World
+
+public class Hello {
+    public static void main(String[] args) {
+        // Prints "hello world" to the terminal window.
+        System.out.println("hello world");
+    }
+}
+----------------------------------------------------------------------------------------------------------------------
+#For adding numbers(operation on string)
+
+class Main {
+    public static void main(String[] args) {
+        System.out.print("The sum of all numbers are: ");
+        int a = 2;
+        int b = 5;
+        int c = 4;
+        int sum = a + b + c;
+        System.out.print(sum);
+    }
+}
+----------------------------------------------------------------------------------------------------------------------
+# byte, short, int, long capacit or their range
+
+class Main {
+    public static void main(String[] args) {
+        /*Range of byte is from -128 to 127
+          byte=1[byte]   (1x8=8)[bit]   2^8/2=2^7   -2^7 to (2^7)-1  */
+        byte age1 = -128;
+        byte age11 = 127;
+        System.out.print("age1: ");
+        System.out.println(age1);
+        System.out.print("age11: ");
+        System.out.println(age11);
+        
+        /*Range of short is from -32768 to 32767
+          short=2[bytes]   (2x8=16)[bit]   2^16/2=2^15   -2^15 to (2^15)-1  */
+        short age2 = -32768;
+        short age22 = 32767;
+        System.out.print("age2: ");
+        System.out.println(age2);
+        System.out.print("age22: ");
+        System.out.println(age22);
+        
+        /*Range of int is from -2147483648 to 2147483647
+          int=4[bytes]   (4x8=32)[bit]   2^32/2=2^31   -2^31 to (2^31)-1  */
+        int age3 = -2147483648;
+        int age33 = 2147483647;
+        System.out.print("age3: ");
+        System.out.println(age3);
+        System.out.print("age33: ");
+        System.out.println(age33);
+        
+        /*Range of long is from -9223372036854775808 to 9223372036854775807l
+          long=8[bytes]   (8x8=64)[bit]   2^64/2=2^63   -2^63 to (2^63)-1  */
+        long age4 = -9223372036854775808l;
+        long age44 = 9223372036854775807l;
+        System.out.print("age4: ");
+        System.out.println(age4);
+        System.out.print("age44: ");
+        System.out.println(age44);
+    }
+}
+-------------------------------------------------------------------------------------------------------------------------
