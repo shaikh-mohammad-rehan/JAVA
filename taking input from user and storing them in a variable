@@ -1,0 +1,37 @@
+# float input
+
+import java.util.Scanner;
+public class input {
+    public static void main(String[] args) {
+        System.out.println("Taking input from user!");
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter first number: ");
+        float a = sc.nextFloat();
+        System.out.print("Enter second number: ");
+        float b = sc.nextFloat();
+        System.out.print("Enter third number: ");
+        float c = sc.nextFloat();
+        float sum = a + b + c;
+        System.out.println("The sum of three numbers is: " + sum);
+        sc.close();
+    }
+}
+----------------------------------------------------------------------------------------------------------------------------------
+# int input
+
+import java.util.Scanner;
+public class input {
+    public static void main(String[] args) {
+        System.out.println("Taking input from user: ");
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter first number: ");
+        int a = sc.nextInt();
+        System.out.print("Enter second number: ");
+        int b = sc.nextInt();
+        System.out.print("Enter third number: ");
+        int c = sc.nextInt();
+        int sum = a + b + c;
+        System.out.println("The sum of three numbers is: " + sum);
+        sc.close();
+    }
+}
