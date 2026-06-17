@@ -74,3 +74,14 @@ class Main {
         System.out.print(num);
     }
 }
+--------------------------------------------------------------
+# Alternative and efficient method
+
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter an integer number: ");
+        System.out.print(sc.hasNextInt());
+    }
+}
