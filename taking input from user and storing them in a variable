@@ -35,3 +35,22 @@ public class input {
         sc.close();
     }
 }
+----------------------------------------------------------------------------------------------------------------------
+# string input
+
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        System.out.println("Taking input from you");
+        Scanner sc = new Scanner(System.in);
+        
+        //System.out.println("to get one word ");
+        //String str = sc.next();
+        
+        System.out.println("to get everything: ");
+        String str1 = sc.nextLine();
+        
+        //System.out.println(str);
+        System.out.println(str1);
+    }
+}
