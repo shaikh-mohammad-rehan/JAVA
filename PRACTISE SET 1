@@ -6,8 +6,8 @@ class Main {
         int num2 = 5;
         int num3 = 5;
         
-        int sum = num1+num2+num3;
-        System.out.println("Sum of three numbers are: "+sum);
+        int sum = num1 + num2 + num3;
+        System.out.println("Sum of three numbers are: " + sum);
     }
 }
 ------------------------------------------------------------------------------------------------------------------------
@@ -28,7 +28,7 @@ class Main {
         int sub3 = sc.nextInt();
         
         float CGPA = ((sub1 + sub2 + sub3)/300.0f)*100;
-        System.out.println("Your CGPA is: "+CGPA);
+        System.out.println("Your CGPA is: " + CGPA);
     }
 }
 ----------------------------------------------------------------------------------------------------------------------
@@ -41,7 +41,7 @@ class Main {
         
         System.out.print("WHAT IS YOUR NAME DEAR: ");
         String name = sc.nextLine();
-        System.out.println("HELLO "+name+" HAVE A GOOD DAY");
+        System.out.println("HELLO " + name + " HAVE A GOOD DAY");
     }
 }
 ----------------------------------------------------------------------------------------------------------------------
@@ -58,7 +58,7 @@ class Main {
         float kilometers = sc.nextFloat();
 
         float miles = (kilometers * 0.621371f);
-        System.out.println(kilometers+" Km"+" = "+miles+" mi");
+        System.out.println(kilometers + " Km" + " = " + miles + " mi");
     }
 }
 ----------------------------------------------------------------------------------------------------------------------
