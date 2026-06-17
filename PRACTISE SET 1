@@ -1,0 +1,65 @@
+# get the sum of three numbers
+
+class Main {
+    public static void main(String[] args) {
+        int num1 = 5;
+        int num2 = 5;
+        int num3 = 5;
+        
+        int sum = num1+num2+num3;
+        System.out.println("Sum of three numbers are: "+sum);
+    }
+}
+------------------------------------------------------------------------------------------------------------------------
+# CGPA CALCULATOR OF 3 SUBJECTS
+
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Enter Marks Of Subject 1: ");
+        int sub1 = sc.nextInt();
+        
+        System.out.println("Enter Marks Of Subject 1: ");
+        int sub2 = sc.nextInt();
+        
+        System.out.println("Enter Marks Of Subject 1: ");
+        int sub3 = sc.nextInt();
+        
+        float CGPA = ((sub1 + sub2 + sub3)/300.0f)*100;
+        System.out.println("Your CGPA is: "+CGPA);
+    }
+}
+----------------------------------------------------------------------------------------------------------------------
+# get the user name as input and great them
+
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.print("WHAT IS YOUR NAME DEAR: ");
+        String name = sc.nextLine();
+        System.out.println("HELLO "+name+" HAVE A GOOD DAY");
+    }
+}
+----------------------------------------------------------------------------------------------------------------------
+# Km to mi (Kilometers to miles) CONVERTER
+
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Kilometers to miles converter");
+
+        System.out.print("Enter kilometers: ");
+        float kilometers = sc.nextFloat();
+
+        float miles = (kilometers * 0.621371f);
+        System.out.println(kilometers+" Km"+" = "+miles+" mi");
+    }
+}
+----------------------------------------------------------------------------------------------------------------------
+# 
