@@ -62,4 +62,15 @@ class Main {
     }
 }
 ----------------------------------------------------------------------------------------------------------------------
-# 
+# int number detector [give the output in terms of boolean]
+
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Integer number detector");
+        System.out.println("Enter an integer number: ");
+        boolean num = sc.hasNextInt();
+        System.out.print(num);
+    }
+}
