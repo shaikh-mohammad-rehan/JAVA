@@ -1,0 +1,36 @@
+class Main {
+    public static void main(String[] args) {
+        int y = 7;      // Initialize y with value 7
+        int x = y++;    // Post-increment:
+                        // 1. Assign current value of y (7) to x
+                        // 2. Then increase y by 1
+        System.out.println(x); // Prints 7 (old value of y)
+        System.out.println(y); // Prints 8 (y was incremented)
+    }
+}
+//----------------------------------------------------------------------------------------------------------------------
+//increment example (can also be used for decrement by just changing "++" --> "--" )
+class Main {
+    public static void main(String[] args) {
+        int a = 49;
+        int b = 9;
+        System.out.println(a++);
+        System.out.println(a);
+        System.out.println();   //
+        System.out.println(++b);
+        System.out.println(b);
+    }
+}
+//----------------------------------------------------------------------------------------------------------------------
+// increment and decrement for char
+class Rehan {
+    public static void main(String[] args) {
+        char B = 'c';
+        char F = 'y';
+        System.out.println(B++);
+        System.out.println(B);
+        System.out.println();
+        System.out.println(++F);
+        System.out.println(F);
+    }
+}
