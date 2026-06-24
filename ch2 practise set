@@ -1,0 +1,24 @@
+// #1: mathematical problem using float(which is btw correct method for this question)
+
+class Rehan {
+    public static void main(String[] args) {
+        float y = 7 / 4f * 9 / 2f;
+        System.out.println(y);  // output:7.875
+    }
+}
+//----------------------------------------------------------------------------------------------------------------------
+// #2: encryption and decryption
+
+class encryption_and_decryption {
+    public static void main(String[] args) {
+        char y = 'B';
+        
+        y = (char)(y+2);        //Encryption
+        System.out.println(y);
+        
+        y = (char)(y-2);        //Decryption
+        System.out.println(y);
+    }
+}
+//----------------------------------------------------------------------------------------------------------------------
+ // #3: 
