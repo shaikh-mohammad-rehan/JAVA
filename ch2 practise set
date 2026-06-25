@@ -61,4 +61,11 @@ class Main {
     }
 }
 //----------------------------------------------------------------------------------------------------------------------
-// #5: 
+// #5: simple maths
+
+class Maths {
+    public static void main(String[] args) {
+        float a = 7;
+        System.out.println(a*49/a+35/a);
+    }
+}
