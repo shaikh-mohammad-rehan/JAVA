@@ -38,4 +38,27 @@ class Main {
     }
 }
 //----------------------------------------------------------------------------------------------------------------------
-// #4: 
+// #4: Mathematical problem
+
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter value for v:");
+        float v = sc.nextFloat();
+
+        System.out.println("Enter value for u:");
+        float u = sc.nextFloat();
+        
+        System.out.println("Enter value for a:");
+        float a = sc.nextFloat();
+        
+        System.out.println("Enter value for s:");
+        float s = sc.nextFloat();
+        
+        float operation = (v*v - u*u) / (2*a*s);
+        System.out.println(operation);
+    }
+}
+//----------------------------------------------------------------------------------------------------------------------
+// #5: 
