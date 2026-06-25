@@ -1,0 +1,70 @@
+// String inputs methods
+class string {
+    public static void main(String[] args) {
+        String name = new String("Rehan");
+        System.out.println(name);  //method 1
+        
+        String naam = "Shaikh";   //method 2
+        System.out.println(naam);
+    }
+}
+//----------------------------------------------------------------------------------------------------------------------
+// Can use String as name if file by using java.lang.String instead of String
+class String {
+    public static void main(java.lang.String[] args) {
+        java.lang.String name = new java.lang.String("Rehan");
+        System.out.println(name);
+    }
+}
+//----------------------------------------------------------------------------------------------------------------------
+
+
+class Main {
+    public static void main(String[] args) {
+        int a = 55;
+        float b = 8.48654f;
+        System.out.printf("value of a is %d  value of b is %f",a,b);
+    }
+}
+//----------------------------------------------------------------------------------------------------------------------
+// # 1st method stores two variable value at same place in memory ,because value is same for both
+// # 2nd method stores two variable value at different place ,because for storing value created new place in memory
+class Main {
+    public static void main(String[] args) {
+        String str1 = "CodeWithHarry";
+        String str2 = "CodeWithHarry";
+        System.out.println(str1 == str2); 
+        // Output: true
+        
+        String strr1 = new String("Keep coding"); 
+        String strr2 = new String("Keep coding"); 
+        System.out.println(strr1 == strr2);
+        // Output: true
+
+    }
+}
+//----------------------------------------------------------------------------------------------------------------------
+
+package com.company;
+import java.util.Scanner;
+
+public class cwh_13_strings {
+    public static void main(String[] args) {
+        // String name = new String("Harry");
+        // String name = "Harry";
+        // System.out.print("The name is: ");
+        // System.out.print(name);
+        int a = 6;
+        float b = 5.6454f;
+        System.out.printf("The value of a is %d and value of b is %8.2f", a, b); 
+        // Here in %8.2f 8 gives 8 space
+        // And .2 only prints two numbers after decimal
+        //System.out.format("The value of a is %d and value of b is %f", a, b);      
+        Scanner sc = new Scanner(System.in);
+//        String st = sc.next();
+//        String st = sc.nextLine();
+//        System.out.println(st);
+
+    }
+}
+//----------------------------------------------------------------------------------------------------------------------
