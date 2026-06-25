@@ -21,4 +21,21 @@ class encryption_and_decryption {
     }
 }
 //----------------------------------------------------------------------------------------------------------------------
- // #3: 
+ // #3: Checks whether the user num is greater than given number or not using comparion operator.
+
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a number (0 to 100): ");
+        int num = sc.nextInt();
+
+        // Checks whether the value of 'num' is greater than 49.
+        // If the condition is true, it prints true.
+        // Otherwise, it prints false.
+        System.out.print(num > 49);
+    }
+}
+//----------------------------------------------------------------------------------------------------------------------
+// #4: 
