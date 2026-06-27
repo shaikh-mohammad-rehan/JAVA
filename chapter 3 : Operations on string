@@ -1,0 +1,10 @@
+// #1: length operation suntax: data_tupe variable_name = variable_name.length();
+class Main {
+    public static void main(String[] args) {
+        String st = "Rehan";
+        int len = st.length(); // <---- Here is implementation
+
+        System.out.println("length of \"" + st + "\": " + len);
+    }
+}
+//----------------------------------------------------------------------------------------------------------------------
