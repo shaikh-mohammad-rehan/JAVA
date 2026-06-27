@@ -1,10 +1,33 @@
 // #1: length operation suntax: data_tupe variable_name = variable_name.length();
+
 class Main {
     public static void main(String[] args) {
         String st = "Rehan";
         int len = st.length(); // <---- Here is implementation
 
         System.out.println("length of \"" + st + "\": " + len);
+    }
+}
+//----------------------------------------------------------------------------------------------------------------------
+// #2: operation like toLowerCase() , toUpperCase() , trim()
+
+class Main {
+    public static void main(String[] args) {
+        String st = "Rehan";
+
+        // Converts all characters in the string to lowercase
+        String low = st.toLowerCase();
+        System.out.println("lower case of \"" + st + "\": " + low);
+
+        // Converts all characters in the string to uppercase
+        String up = st.toUpperCase();
+        System.out.println("upper case of \"" + st + "\": " + up);
+
+        String stt = "     Rehan   ";
+
+        // Removes leading and trailing (beginning and ending) spaces from the string
+        String trim = stt.trim();
+        System.out.println("trim case of \"" + st + "\": " + trim);
     }
 }
 //----------------------------------------------------------------------------------------------------------------------
