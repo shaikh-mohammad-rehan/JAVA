@@ -52,8 +52,11 @@ class Main {
         // Returns characters from index 0 (inclusive) to index 5 (exclusive)
         System.out.println(string.substring(0,5));    // Rehan
 
-        // Replaces every occurrence of 'e' with 'o' in the string
+        // Replaces every occurrence of 'e' with 'o' in the string (changes letter only)
         System.out.println(string.replace('e','o'));  // Rohan
+
+        // Replaces the specified substring "ehan" with "amdan" (changes word and letter)
+        System.out.println(string.replace("ehan","amdan"));  // Ramdan
     }
 }
 //----------------------------------------------------------------------------------------------------------------------
