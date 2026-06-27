@@ -31,3 +31,30 @@ class Main {
     }
 }
 //----------------------------------------------------------------------------------------------------------------------
+// #3: accessing the elements using substring()  and  replacing the elements using replace()
+
+class Main {
+    public static void main(String[] args) {
+        String string = "Rehan";
+
+        // Returns the substring starting from index 0 to the end of the string
+        System.out.println(string.substring(0));      // Rehan
+
+        // Returns the substring starting from index 1 to the end of the string
+        System.out.println(string.substring(1));      // ehan
+
+        // Returns characters from index 0 (inclusive) to index 1 (exclusive)
+        System.out.println(string.substring(0,1));    // R
+
+        // Returns characters from index 0 (inclusive) to index 3 (exclusive)
+        System.out.println(string.substring(0,3));    // Reh
+
+        // Returns characters from index 0 (inclusive) to index 5 (exclusive)
+        System.out.println(string.substring(0,5));    // Rehan
+
+        // Replaces every occurrence of 'e' with 'o' in the string
+        System.out.println(string.replace('e','o'));  // Rohan
+    }
+}
+//----------------------------------------------------------------------------------------------------------------------
+
