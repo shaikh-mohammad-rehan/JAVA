@@ -27,7 +27,7 @@ class Main {
 
         // Removes leading and trailing (beginning and ending) spaces from the string
         String trim = stt.trim();
-        System.out.println("trim case of \"" + st + "\": " + trim);
+        System.out.println("trim case of \"" + stt + "\": " + trim);
     }
 }
 //----------------------------------------------------------------------------------------------------------------------
